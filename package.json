@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "firebase": "^9.18.0",
+    "gsap": "^3.11.5",
+    "sass": "^1.60.0"
+  }
+}

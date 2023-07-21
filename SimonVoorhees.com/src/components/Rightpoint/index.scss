@@ -1,0 +1,24 @@
+@import "../../sass/colors";
+.Rightpoint {
+  width: 75%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 512px;
+  &_TextBlock {
+    background-color: $color-primary-0;
+    color: $color-primary-1;
+    border-radius: 15px;
+    padding: 25px 30px;
+  }
+  &_Summary {
+    margin: 10px 30px;
+  }
+  &_Logo {
+    padding: 10px;
+    margin-left: 50px;
+    max-width: 256px;
+    height: auto;
+  }
+}

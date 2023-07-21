@@ -1,0 +1,13 @@
+@import "../../sass/colors";
+.Title{
+    text-align: left;
+    color: $color-primary-0;
+    background-color: $color-primary-1;
+    width: 100%;
+    &_Name{
+        margin: 10px;
+    }
+    &_Description{
+        margin: 10px;
+    }
+}
