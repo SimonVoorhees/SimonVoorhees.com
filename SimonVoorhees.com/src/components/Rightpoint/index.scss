@@ -1,4 +1,4 @@
-@import "../../sass/colors";
+@import "../../sass/variables";
 .Rightpoint {
   width: 75%;
   margin: 20px auto;
@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   max-height: 512px;
+  max-width: $HomeMaxWidth;
   &_TextBlock {
     background-color: $color-primary-0;
     color: $color-primary-1;

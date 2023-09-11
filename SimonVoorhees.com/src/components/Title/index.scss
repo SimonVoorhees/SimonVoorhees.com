@@ -1,9 +1,10 @@
-@import "../../sass/colors";
+@import "../../sass/variables";
 .Title{
     text-align: left;
     color: $color-primary-0;
     background-color: $color-primary-1;
     width: 100%;
+    max-width: $HomeMaxWidth;
     &_Name{
         margin: 10px;
     }
