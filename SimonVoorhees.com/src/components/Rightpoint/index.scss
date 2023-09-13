@@ -5,7 +5,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-height: 512px;
+  align-items: center;
+  // max-height: 512px;
+  height: 100vh;
   max-width: $HomeMaxWidth;
   &_TextBlock {
     background-color: $color-primary-0;
@@ -19,7 +21,7 @@
   &_Logo {
     padding: 10px;
     margin-left: 50px;
-    max-width: 256px;
-    height: auto;
+    max-width: 400px;
+    max-height: 400px;
   }
 }

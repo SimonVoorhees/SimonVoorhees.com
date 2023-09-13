@@ -1,0 +1,13 @@
+@import "../../sass/variables";
+.Footer {
+    width: 100%;
+    background-color: $color-primary-4;
+    &_Block{
+        display: flex;
+        justify-content: center;
+    }
+    &_Copyright{
+        color:  $color-primary-0;
+    }
+}
+  

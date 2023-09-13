@@ -1,0 +1,40 @@
+@import "../../sass/variables";
+.Projects {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_Title{
+
+  }
+  &_TextBlock {
+    background-color: $color-primary-4;
+    color: $color-primary-0;
+    border-radius: 5px;
+    padding: 25px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: $HomeMaxWidth;
+  }
+  &_Links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  &_Link {
+    color: $color-primary-3;
+    margin-right: 10px;
+    &:hover{
+        color: $color-primary-3
+    }
+  }
+  &_Paragraph {
+
+  }
+}

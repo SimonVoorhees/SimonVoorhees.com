@@ -1,0 +1,34 @@
+@import "../../sass/variables";
+.HomePage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &_TextBlock {
+    background-color: $color-primary-1;
+    color: $color-primary-0;
+    border-radius: 15px;
+    padding: 25px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: $HomeMaxWidth;
+  }
+  &_Links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  &_Link {
+    color: $color-primary-3;
+    margin-right: 10px;
+    &:hover{
+        color: $color-primary-3
+    }
+  }
+}
