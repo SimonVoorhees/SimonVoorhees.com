@@ -10,7 +10,7 @@ export const HomePage = () => {
         <ul className="HomePage_Links">
           <li><a className="HomePage_Link" target="_blank" href="https://www.linkedin.com/in/simon-voorhees-439401a2/">LinkedIn</a></li>
           <li><a className="HomePage_Link" target="_blank" href="https://github.com/SimonVoorhees">Github</a></li>
-          <li><a className="HomePage_Link" target="_blank" href="../../../public/Simon Voorhees.pdf">Resume</a></li>
+          <li><a className="HomePage_Link" target="_blank" href="/Simon Voorhees.pdf">Resume</a></li>
         </ul>
       </div>
     </section>
