@@ -7,8 +7,10 @@
   align-items: center;
   // max-height: 512px;
   height: 100vh;
-  background-color: $color-primary-2;
+  background-color: $color-Rightpoint-Red;
   &_TextBlock {
+    margin-left: 50px;
+    background-color: $color-primary-4;
     color: $color-primary-1;
     border-radius: 15px;
     padding: 25px 30px;

@@ -6,13 +6,15 @@
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  background-color: $color-primary-0;
+  background-color: $color-RIT-Orange;
   &_TextBlock {
+    background-color: $color-primary-4;
     max-width: $HomeMaxWidth;
     color: $color-primary-1;
     border-radius: 15px;
     padding: 25px 30px;
     font-size: 20px;
+    margin-right: 50px;
   }
   &_Summary {
     margin: 10px 30px;
