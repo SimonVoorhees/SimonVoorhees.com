@@ -1,22 +1,26 @@
 @import "../../sass/variables";
 .Projects {
+  width: 100%;
   height: 100vh;
   display: flex;
+  background-color: $color-primary-4;
   justify-content: center;
   align-items: center;
-  &_Title{
-
+  &_Title {
+    justify-self: flex-start;
   }
   &_TextBlock {
-    background-color: $color-primary-4;
     color: $color-primary-0;
     border-radius: 5px;
     padding: 25px 30px;
     font-size: 20px;
     font-weight: 500;
+    height: 500px;
     max-width: $HomeMaxWidth;
+    display: flex;
+    flex-direction: column;
   }
-  &_Links{
+  &_Links {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -26,15 +30,18 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-self: flex-end;
   }
   &_Link {
-    color: $color-primary-3;
+    color: $color-primary-1;
     margin-right: 10px;
-    &:hover{
-        color: $color-primary-3
+    &:visited {
+      color: $color-primary-1;
+    }
+    &:hover {
+      color: $color-primary-2;
     }
   }
   &_Paragraph {
-
   }
 }
