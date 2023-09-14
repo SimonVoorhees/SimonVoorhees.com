@@ -5,26 +5,39 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  // max-height: 512px;
-  height: 100vh;
   background-color: $color-Rightpoint-Red;
   &_TextBlock {
-    margin-left: 50px;
+    margin: 10px;
     background-color: $color-primary-4;
     color: $color-primary-1;
     border-radius: 15px;
-    padding: 25px 30px;
+    padding: 10px;
     max-width: $HomeMaxWidth;
     font-size: 20px;
   }
   &_Summary {
-    margin: 10px 30px;
     font-weight: bold;
   }
   &_Logo {
-    padding: 10px;
-    margin: 0 50px;
-    max-width: 400px;
-    max-height: 400px;
+    display: none;
+  }
+  @media only screen and (min-width: $mobileBreakpoint) {
+    height: 100vh;
+
+    &_TextBlock {
+      margin: 0 0 0 50px;
+      padding: 25px 30px;
+    }
+    &_Summary {
+      font-size: 26px;
+    }
+    &_Logo {
+      display: block;
+      border-radius: 15px;
+      padding: 10px;
+      margin: 0 50px;
+      max-width: 400px;
+      max-height: 400px;
+    }
   }
 }

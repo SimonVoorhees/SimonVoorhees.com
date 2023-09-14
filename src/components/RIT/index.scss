@@ -5,25 +5,38 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
   background-color: $color-RIT-Orange;
   &_TextBlock {
+    margin: 10px;
+    padding: 10px;
     background-color: $color-primary-4;
     max-width: $HomeMaxWidth;
     color: $color-primary-1;
     border-radius: 15px;
-    padding: 25px 30px;
     font-size: 20px;
-    margin-right: 50px;
   }
   &_Summary {
-    margin: 10px 30px;
     font-weight: bold;
   }
   &_Logo {
-    margin: 0 50px;
-    max-width: 276px;
-    max-height: 323px;
-    height: auto;
+    display: none;
+  }
+  @media only screen and (min-width: $mobileBreakpoint) {
+    height: 100vh;
+    &_TextBlock {
+      margin: 0 50px 0 0;
+      padding: 25px 30px;
+    }
+    &_Summary {
+      font-size: 26px;
+    }
+    &_Logo {
+      display: block;
+      border-radius: 10px;
+      margin: 0 50px;
+      max-width: 276px;
+      max-height: 323px;
+      height: auto;
+    }
   }
 }
