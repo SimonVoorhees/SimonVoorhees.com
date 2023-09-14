@@ -4,7 +4,7 @@ import RightpointLogo from "../../assets/rightpoint_logo.jpg";
 
 export const Rightpoint = () => {
   return (
-    <section className="Rightpoint">
+    <section className="Rightpoint Page">
       <div className="Rightpoint_TextBlock">
         <h2 className="Rightpoint_Summary">
           I really enjoyed my time at Righpoint because I was able to grow a lot as a developer in a short time by working for many different teams and clients.

@@ -3,7 +3,7 @@ import "./index.scss";
 
 export const HomePage = () => {
   return (
-    <section className="HomePage">
+    <section className="HomePage Page">
       <div className="HomePage_TextBlock">
         <h1>Hi! I'm Simon Voorhees</h1> 
         <h2>I'm a front-end web developer based in Boston MA.</h2>

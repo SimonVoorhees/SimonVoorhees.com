@@ -4,7 +4,7 @@ import RITLogo from "../../assets/RIT_rgb_vert_k.jpg";
 
 export const RIT = () => {
   return (
-    <section className="RIT">
+    <section className="RIT Page">
       <img
         className="RIT_Logo"
         src={RITLogo}
