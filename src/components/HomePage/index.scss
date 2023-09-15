@@ -35,5 +35,6 @@
   }
   @media only screen and (min-width: $mobileBreakpoint) {
     height: 100vh;
+    width: initial;
   }
 }
