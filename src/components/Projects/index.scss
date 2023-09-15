@@ -34,7 +34,7 @@
     justify-self: flex-end;
     margin-left: 15px;
     li{
-      margin: 10px 0 10px 0;
+      margin: 10px 20px 10px 0;
     }
   }
   &_Link {
@@ -48,11 +48,12 @@
     }
   }
   &_Paragraph {
-    font-size: 26px;
-    margin-bottom: 0;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
   }
   @media only screen and (min-width: $mobileBreakpoint) {
-    height: 100vh;
+    min-height: 100vh;
     &_TextBlock {
       margin: 0 0 0 50px;
       padding: 25px 30px;
